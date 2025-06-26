@@ -68,15 +68,7 @@ header h5 {
     letter-spacing: 2px;
     font-weight: normal;
 }
-
-/* Seções principais */
-section {
-    margin: 40px 0;
-    padding: 20px;
-    background-color: #d9c3b0;
-    border-radius: 8px;
-    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
-}
+/*Barra de Navegação*/
 
 .navbar {
   background-color: #A0522D;
@@ -88,10 +80,47 @@ section {
 
 .navbar a {
   color: #fff;
-  margin: 0 15px;
+  margin: 10px;
   text-decoration: none;
   font-weight: bold;
 }
+
+/* Seções principais */
+section {
+    margin: 40px 0;
+    padding: 20px;
+    background-color: #d9c3b0;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.produto {
+    display: flex;
+    gap: 40px;
+    align-items: center;
+    margin: 60px 0;
+    flex-wrap: wrap;
+}
+
+.produto-imagens img {
+    width: 250px;
+    border-radius: 12px;
+    margin-bottom: 10px;
+}
+
+.produto-info {
+    max-width: 500px;
+}
+
+.botao {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #5A2D0C;
+    color: white;
+    text-decoration: none;
+    margin-top: 20px;
+    border-radius: 5px;
+    font-weight: bold;
 
 section h2 {
     margin-bottom: 15px;
