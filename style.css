@@ -60,11 +60,11 @@ body {
 header h1 {
     font-size: 2.5em;
     margin-top: 10px;
-    color: #fdebe3;
+    color: #d9c3b0;
 }
 
 header h5 {
-    color: #fdebe3;
+    color: #d9c3b0;
     letter-spacing: 2px;
     font-weight: normal;
 }
@@ -73,7 +73,7 @@ header h5 {
 section {
     margin: 40px 0;
     padding: 20px;
-    background-color: #fff; /* Fundo branco pra destacar o texto */
+    background-color: #d9c3b0;
     border-radius: 8px;
     box-shadow: 0 2px 5px rgba(0,0,0,0.1);
 }
