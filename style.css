@@ -78,6 +78,21 @@ section {
     box-shadow: 0 2px 5px rgba(0,0,0,0.1);
 }
 
+.navbar {
+  background-color: #A0522D;
+  padding: 10px;
+  text-align: center;
+  position: sticky;
+  top: 0;
+}
+
+.navbar a {
+  color: #fff;
+  margin: 0 15px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
 section h2 {
     margin-bottom: 15px;
     color: #A0522D;
