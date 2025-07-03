@@ -9,10 +9,18 @@
 body {
     font-family: Hammersmith One, sans-serif;
     background-color: #fdf6f0;
-    color: #4B2E2E; /
+    color: #4B2E2E;
     line-height: 1.6;
     padding: 20px;
-    
+
+}
+
+/*Estilização frase de efeito*/
+.frase-efeito {
+    font-size: 1.2rem;
+    color: #d9c3b0;
+    display: block;
+    margin-bottom: 10px;
 }
 
 /* Cabeçalho */
@@ -36,7 +44,8 @@ body {
     width: 100%;
     height: 100%;
     position: absolute;
-    top: 0; left: 0;
+    top: 0;
+    left: 0;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -56,7 +65,7 @@ body {
     line-height: 1.2;
     text-transform: uppercase;
 }
-    
+
 header h1 {
     font-size: 2.5em;
     margin-top: 10px;
@@ -68,21 +77,22 @@ header h5 {
     letter-spacing: 2px;
     font-weight: normal;
 }
+
 /*Barra de Navegação*/
 
 .navbar {
-  background-color: #A0522D;
-  padding: 10px;
-  text-align: center;
-  position: sticky;
-  top: 0;
+    background-color: #A0522D;
+    padding: 10px;
+    text-align: center;
+    position: sticky;
+    top: 0;
 }
 
 .navbar a {
-  color: #fff;
-  margin: 10px;
-  text-decoration: none;
-  font-weight: bold;
+    color: #fff;
+    margin: 10px;
+    text-decoration: none;
+    font-weight: bold;
 }
 
 /* Seções principais */
@@ -91,7 +101,7 @@ section {
     padding: 20px;
     background-color: #d9c3b0;
     border-radius: 8px;
-    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
 
 .produto {
@@ -121,6 +131,7 @@ section {
     margin-top: 20px;
     border-radius: 5px;
     font-weight: bold;
+}
 
 section h2 {
     margin-bottom: 15px;
@@ -137,13 +148,15 @@ footer {
     border-radius: 8px;
 }
 
-footer h2, footer h3 {
+footer h2,
+footer h3 {
     margin-bottom: 10px;
     color: #FFDAB9;
 }
 
 /* Links e botões (se for usar depois) */
-a, button {
+a,
+button {
     background-color: #A0522D;
     color: #fff;
     padding: 10px 20px;
@@ -153,6 +166,7 @@ a, button {
     margin-top: 10px;
 }
 
-a:hover, button:hover {
+a:hover,
+button:hover {
     background-color: #7B3F00;
 }
