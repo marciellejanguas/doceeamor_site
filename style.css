@@ -151,36 +151,37 @@ section h2 {
     color: #A0522D;
 }
 
+/* Footer */
 footer {
-  background-color: #8B4513;
-  color: #fff;
-  padding: 20px 10px;
-  text-align: center;
-  border-radius: 8px 8px 0 0;
-  font-size: 0.95rem;
+    background-color: #8B4513;
+    color: #fff;
+    padding: 20px 10px;
+    text-align: center;
+    border-radius: 8px 8px 0 0;
+    font-size: 0.95rem;
 }
 
 .footer-container {
-  display: flex;
-  justify-content: space-around;
-  flex-wrap: wrap;
-  gap: 20px;
-  max-width: 1000px;
-  margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 20px;
+    max-width: 1000px;
+    margin: 0 auto;
 }
 
 .footer-col {
-  flex: 1;
-  min-width: 200px;
+    flex: 1;
+    min-width: 200px;
 }
 
 .footer-col h3 {
-  color: #FFDAB9;
-  margin-bottom: 10px;
+    color: #FFDAB9;
+    margin-bottom: 10px;
 }
 
 .footer-col p {
-  margin: 4px 0;
+    margin: 4px 0;
 }
 
 /* Links e botões (se for usar depois) */
@@ -201,40 +202,27 @@ button:hover {
 }
 
 @media (max-width: 768px) {
-  .hero {
-    height: 300px;
-  }
+    .hero {
+        height: 300px;
+    }
 
-  .titulo {
-    font-size: 2.5rem;
-  }
+    .titulo {
+        font-size: 2.5rem;
+    }
 
-  .frase-efeito {
-    font-size: 1rem;
-  }
-}
+    .frase-efeito {
+        font-size: 1rem;
+    }
 
-@media (max-width: 480px) {
-  .hero {
-    height: 250px;
-  }
-
-  .titulo {
-    font-size: 2rem;
-  }
-
-  .frase-efeito {
-    font-size: 0.9rem;
-  }
 }
 
 @media (max-width: 600px) {
-  .footer-container {
-    flex-direction: column;
-    align-items: center;
-  }
+    .footer-container {
+        flex-direction: column;
+        align-items: center;
+    }
 
-  .footer-col {
-    margin-bottom: 20px;
-  }
+    .footer-col {
+        margin-bottom: 20px;
+    }
 }
