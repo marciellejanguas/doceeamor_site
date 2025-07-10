@@ -123,23 +123,22 @@ section {
 
 .produto {
     display: flex;
-    gap: 400px;
+    gap: 150px;
     align-items: center;
     margin: 20px 0;
     align-items: center;
 }
 
-.produto-imagens-col img {
+.produto-imagens img {
     width: 200px;
     height: 200px;
     border-radius: 12px;
     position: static;
     object-fit: cover;
     margin: 10px;
-
 }
 
-.produto-imagens-col .img-baixa1 {
+.produto-imagens .img-baixa1 {
      margin: 45px;
 }
 
