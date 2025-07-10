@@ -199,6 +199,31 @@ footer {
     margin: 4px 0;
 }
 
+/*Botão Whatsapp*/
+.whatsapp-float {
+  position: fixed;
+  width: 60px;
+  height: 60px;
+  bottom: 20px;
+  right: 20px;
+  background-color: #25D366;
+  color: #fff;
+  border-radius: 50%;
+  text-align: center;
+  font-size: 30px;
+  z-index: 100;
+  box-shadow: 2px 2px 8px rgba(0,0,0,0.3);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  transition: background 0.3s ease;
+}
+
+.whatsapp-float:hover {
+  background-color: #1ebe5d;
+}
+
 /* Links e botões (se for usar depois) */
 a,
 button {
