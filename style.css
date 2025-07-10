@@ -123,19 +123,19 @@ section {
 
 .produto {
     display: flex;
-    gap: 150px;
+    gap: 10px;
     align-items: center;
-    margin: 20px 0;
+    margin: 10px 0;
     align-items: center;
 }
 
 .produto-imagens img {
-    width: 200px;
-    height: 200px;
+    width: 300px;
+    height: 300px;
     border-radius: 12px;
     position: static;
     object-fit: cover;
-    margin: 10px;
+    margin: 5px;
 }
 
 .produto-imagens .img-baixa1 {
