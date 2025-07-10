@@ -131,6 +131,26 @@
     <a href="https://wa.me/5511943451798" class="whatsapp-float" target="_blank">
         <i class="fab fa-whatsapp"></i>
     </a>
+
+<!--Cookies-->
+    <div id="cookie-banner" class="cookie-banner">
+        Este site utiliza cookies para melhorar sua experiência.
+        <button onclick="aceitaCookies()">OK</button>
+    </div>
+
+    <script>
+        function aceitaCookies() {
+            document.getElementById("cookie-banner").style.display = "none";
+            localStorage.setItem("cookies_aceitos", "true");
+        }
+
+        window.onload = function () {
+            if (!localStorage.getItem("cookies_aceitos")) {
+                document.getElementById("cookie-banner").style.display = "block";
+            }
+        }
+    </script>
+
 </body>
 
 </html>
